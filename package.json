@@ -1,0 +1,20 @@
+{
+  "name": "design-patterns-ts-example",
+  "author": "João Vitor Pessoa <joaovitorpessoa81@gmail.com>",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "tsc-watch --watch --onCompilationComplete \"npm run start\"",
+    "build": "tsc",
+    "formatter": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.0.4"
+  }
+}
